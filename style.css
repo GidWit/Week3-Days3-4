@@ -16,6 +16,10 @@ body {
     background-color: orange;
     height: 50px;
 }
+#flex-container li {
+    display: flex;
+    flex-direction: row;
+}
 .container a {
     text-decoration: none;
     color: antiquewhite;
@@ -28,15 +32,15 @@ body {
 }
 #leftside {
     margin-top: 15px;
-    margin-left: 50px;
-    margin-right: 20px;
+    /*margin-left: 50px;
+    margin-right: 20px;*/
     color: antiquewhite;
-    float: left;
+    justify-content: flex-start;
 }
 #rightside {
     margin-top: 15px;
-    margin-right: 65px;
-    float: right;
+    /*margin-right: 65px;*/
+    justify-content: flex-end;
 }
 #headtext2 {
     margin-right: 10px;
