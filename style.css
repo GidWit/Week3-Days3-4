@@ -9,16 +9,30 @@ html, body, h1, h2, h3, p, ol, ul, li, a, span {
 body {
     height: 2000px;
 }
+.body {
+    display: flex;
+}
 .head {
 
 }
 .container {
-    background-color: orange;
-    height: 50px;
-}
-#flex-container li {
     display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    /*height: 50px;*/
+}
+#flex-container {
     flex-direction: row;
+    justify-content: flex-start;
+}
+#flex-container2 {
+    /*flex-direction: row;*/
+    /*align-content: flex-start;*/
+    justify-content: flex-end;
+}
+#flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
 }
 .container a {
     text-decoration: none;
@@ -27,25 +41,23 @@ body {
 .container a:hover {
     color: black;
 }
-.header {
-    display: inline-block;
-}
-#leftside {
+#leftside li {
     margin-top: 15px;
-    /*margin-left: 50px;
-    margin-right: 20px;*/
+    margin-left: 50px;
+    margin-right: 20px;
     color: antiquewhite;
-    justify-content: flex-start;
 }
 #rightside {
-    margin-top: 15px;
-    /*margin-right: 65px;*/
-    justify-content: flex-end;
+    transform: translate(-45px, -17px);
 }
-#headtext2 {
+#rightside a {
+    margin-left: 20px;
+}
+
+/*#headtext2 {
     margin-right: 10px;
     margin-left: 10px;
-}
+}*/
 .body {
     margin-left: 100px;
 }
@@ -59,7 +71,6 @@ body {
     width: 400px;
     height: 600px;
     text-align: left;
-    float: left;
 }
 #box2 {
     border: 1px solid orange;
