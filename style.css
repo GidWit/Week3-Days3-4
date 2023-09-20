@@ -79,7 +79,7 @@ body {
     width: 400px;
     height: 600px;
     text-align: left;
-    float: left;
+
 }
 #box3 {
     border: 1px solid orange;
@@ -88,7 +88,7 @@ body {
     width: 400px;
     height: 600px;
     text-align: left;
-    float: left;
+
 }
 #box4 {
     border: 1px solid orange;
@@ -97,7 +97,7 @@ body {
     width: 400px;
     height: 600px;
     text-align: left;
-    float: left;
+
 }
 #lorem {
     margin-top: 35px;
