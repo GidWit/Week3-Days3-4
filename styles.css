@@ -6,21 +6,37 @@ html, body, h1, h2, h3, p, ol, ul, li, a, span {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.body
+.body {
+    height: 2000px;
+}
+.header {
+    /*background-image:url(green-vegetables.jpg);*/
+}
 .container {
     display: flex;
     flex-wrap: wrap;
+    z-index: 2;
 }
-#flex-container1 {
-
-}
-#flex-container2 {
+#flex-container {
     flex-direction: row;
     justify-content: flex-start;
     background-color: orange;
 }
-#flex-container3 {
+#flex-container li {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+#flex-container2 {
     flex-direction: row;
     justify-content: flex-end;
-    background-color: orange;
+    background-color: yellow;
+}
+#flex-container2 a {
+    color: black;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 50px; 
 }
