@@ -7,36 +7,77 @@ html, body, h1, h2, h3, p, ol, ul, li, a, span {
     font-family: Arial, Helvetica, sans-serif;
 }
 .body {
-    height: 2000px;
-}
-.header {
-    /*background-image:url(green-vegetables.jpg);*/
-}
-.container {
     display: flex;
-    flex-wrap: wrap;
-    z-index: 2;
+    height: 30000px;
 }
-#flex-container {
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: orange;
-}
-#flex-container li {
+#header2 {
+    display: flex;
+    background-image: url("green-vegetables.jpg");
+    align-items: stretch;
     color: white;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
+    height: 1200px;
+}
+#flex-container3 {
 
 }
-#flex-container2 {
+#left-side {
+    display: flex;
+    justify-content: center;
+    transform: translate(80px, 40px);
+}
+#left-side p {
+    background-color: black;
+}
+#flex-container6 {
+
+}
+#a1 {
+
+}
+#a2 {
+
+}
+#a3 {
+
+}
+#white-line {
+
+}
+#flex-container4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 700px;
+    background-color: black;
+}
+#flex-container4 p {
+    font-size: 0px;
+    color: white;
+    justify-content: flex-end;
+
+}
+#flex-container5 {
+    /*display: flex;
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-image:url("hands-bread.jpg");
+    transform: translate(-100px, 0px);*/
+}
+#flex-container5 img {
+
+}
+#breadhands {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    color: white;
+    transform: translate(-100px, 0px);
+}
+#flex-container5 p {
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: yellow;
-}
-#flex-container2 a {
-    color: black;
-    font-size: 20px;
-    margin-left: 0px;
-    margin-right: 50px; 
+    color: white;
+    font-size: 30px;
 }
