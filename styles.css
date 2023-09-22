@@ -10,51 +10,120 @@ html, body, h1, h2, h3, p, ol, ul, li, a, span {
     display: flex;
     height: 30000px;
 }
-#header2 {
+.header {
+}
+.container2 {
     display: flex;
+    flex-wrap: wrap;
     background-image: url("green-vegetables.jpg");
-    align-items: stretch;
-    color: white;
+    align-self: flex-start;
     height: 1200px;
+    transform: translate(0px, -200px);
 }
-#flex-container3 {
-
-}
-#left-side {
+.container {
     display: flex;
-    justify-content: center;
-    transform: translate(80px, 40px);
+    flex-wrap: wrap;
+    color: white;
+    height: 20px;
+    width: 20px;
+    justify-content: flex-start;
+    transform: translate(90px, 280px);
 }
-#left-side p {
-    background-color: black;
-}
-#flex-container6 {
-
-}
-#a1 {
-
-}
-#a2 {
-
-}
-#a3 {
-
-}
-#white-line {
-
-}
-#flex-container4 {
+.container p {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: flex-end;
+    height: 20px;
+    transform: translate(1500px, 280px);
+}
+.container5 a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: flex-end;
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.container5 a:hover {
+    color: green;
+}
+#whiteline {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    height: 5px;
+    background-color: white;
+    transform: translate(-160px, 310px);
+}
+.main-title {
+    -webkit-text-fill-color: green;
+    -webkit-text-stroke: 3px white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 100px;
+    transform: translate(630px, -300px);
+    color: black;
+}
+#whiteline2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 7px;
+    background-color: white;
+    transform: translate(-150px, 120px);
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
     height: 700px;
     background-color: black;
 }
-#flex-container4 p {
+.container3 p {
     font-size: 0px;
     color: white;
     justify-content: flex-end;
 
+}
+.container4 {
+
+}
+.container4 img {
+
+}
+#flex-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    /*background-color: orange;*/
+}
+#flex-container li {
+    z-index: 10;
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#flex-container2 {
+    z-index: 100;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: black
+    /*background-color: yellow;*/
+}
+#flex-container2 a {
+    color: black;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 50px; 
 }
 #flex-container5 {
     /*display: flex;
@@ -64,8 +133,12 @@ html, body, h1, h2, h3, p, ol, ul, li, a, span {
     background-image:url("hands-bread.jpg");
     transform: translate(-100px, 0px);*/
 }
-#flex-container5 img {
-
+#flex-container5 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    font-size: 30px;
 }
 #breadhands {
     display: flex;
@@ -73,11 +146,4 @@ html, body, h1, h2, h3, p, ol, ul, li, a, span {
     height: 600px;
     color: white;
     transform: translate(-100px, 0px);
-}
-#flex-container5 p {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    color: white;
-    font-size: 30px;
 }
